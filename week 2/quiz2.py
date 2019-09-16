@@ -24,7 +24,7 @@ rho = data['rho']
 
 # Fill in these values
 sampling_period = 2 # in ms
-num_timesteps = num_timesteps = int(300 / sampling_period)
+num_timesteps = int(300 / sampling_period)
 
 sta = compute_sta(stim, rho, num_timesteps)
 
